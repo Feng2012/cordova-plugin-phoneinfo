@@ -28,11 +28,11 @@ phone.getImei(function(res) {
 });
 ```
 ### Supported calls
-getSimSerialNumber(callback) - Returns the sim card's unique number
-getDeviceSoftwareVersion(callback) - Returns the device's software version
-getImei(callback) - Returns the IMEI
-getMeid(callback) - Returns the MEID
-getPhoneNumber(callback) - Returns the line1Number, if available.
+* getSimSerialNumber(callback) - Returns the sim card's unique number
+* getDeviceSoftwareVersion(callback) - Returns the device's software version
+* getImei(callback) - Returns the IMEI
+* getMeid(callback) - Returns the MEID
+* getPhoneNumber(callback) - Returns the line1Number, if available.
 ### Important notes
 * Sometimes a call may return NULL, this means that the information is not available or not accessible.
 * In order for the entire plugin to work, the android permission READ_PHONE_STATE needs to be granted.
