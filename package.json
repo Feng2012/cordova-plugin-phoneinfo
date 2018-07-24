@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-phoneinfo",
+  "version": "1.0.0",
+  "description": "This plugin provides info methods to provide basic phone data",
+  "cordova": {
+    "id": "cordova-plugin-phoneinfo",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBoneJarmer/cordova-plugin-phoneinfo.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Ruben Labruyere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBoneJarmer/cordova-plugin-phoneinfo/issues"
+  },
+  "homepage": "https://github.com/TheBoneJarmer/cordova-plugin-phoneinfo#readme"
+}
